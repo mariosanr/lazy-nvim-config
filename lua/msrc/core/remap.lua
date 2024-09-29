@@ -7,7 +7,10 @@ vim.keymap.set("n", "<leader>qw", ":wqall<CR>")
 
 
 -- moving between windows
-vim.keymap.set("n", "<leader>w", "<C-w>")
+vim.keymap.set("n", "<leader>wh", "<C-w>h")
+vim.keymap.set("n", "<leader>wj", "<C-w>j")
+vim.keymap.set("n", "<leader>wk", "<C-w>k")
+vim.keymap.set("n", "<leader>wl", "<C-w>l")
 
 -- moving selection
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
