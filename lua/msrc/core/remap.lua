@@ -11,6 +11,8 @@ vim.keymap.set("n", "<leader>wh", "<C-w>h")
 vim.keymap.set("n", "<leader>wj", "<C-w>j")
 vim.keymap.set("n", "<leader>wk", "<C-w>k")
 vim.keymap.set("n", "<leader>wl", "<C-w>l")
+-- create another window
+vim.keymap.set("n", "<leader>wa", "<C-w>s")
 
 -- moving selection
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
